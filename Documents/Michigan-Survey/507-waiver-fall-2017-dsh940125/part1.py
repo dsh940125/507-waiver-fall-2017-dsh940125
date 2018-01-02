@@ -9,10 +9,10 @@ from tweepy.auth import OAuthHandler
 # write your code here
 # usage should be python3 part1.py <username> <num_tweets>
 
-CONSUMER_KEY = 'lEhZ3baWaZYRbZbecClp23iU1' 		
-CONSUMER_SECRET = 'aWNfNxuw67yRG0bKqjfUa9JNbdWjLvAFqA3UagKLy7g0sWoYc8' 	
-ACCESS_TOKEN = '864863996834447360-43qUm8slPIKmKCw93UquSEo4H15Zfil' 	
-ACCESS_TOKEN_SECRET = '1h2gClmsm9o8dRnFbKs0i18iJKnD0g4eng4wr7Nz1tjmH'
+CONSUMER_KEY = 'XXX' 		
+CONSUMER_SECRET = 'XXX' 	
+ACCESS_TOKEN = 'XXX' 	
+ACCESS_TOKEN_SECRET = 'XXX'
 
 auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
